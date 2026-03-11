@@ -15,7 +15,7 @@ function Register(){
 
   const submit = async () =>{
     try{
-      const res = await axios.post("https://Cabsystemsms-1.onrender/register",data);
+      const res = await axios.post("https://Cab-system-bwfb.onrender/users",data);
       alert(res.data);
     }
     catch(err){
